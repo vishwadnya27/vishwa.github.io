@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #282c35; /* Dark background color */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        .converter-links {
+            display: flex;
+            flex-direction: row; /* Display links horizontally */
+            margin-bottom: 20px;
+        }
+
+        .converter-link {
+            display: block;
+            margin-right: 10px; /* Add spacing between links */
+            font-size: 18px;
+            text-decoration: none;
+            color: #fff;
+            padding: 15px;
+            background-color: #007bff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+        }
+
+        .converter-link:hover {
+            background-color: #0056b3;
+            transform: translateY(-3px);
+        }
+
+        .converter-link:focus {
+            outline: none;
+            background-color: #0056b3;
+        }
+
+        h2 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="converter-links">
+        <a href="length-converter.html" class="converter-link">Length Converter</a>
+        <a href="weight-converter.html" class="converter-link">Weight Converter</a>
+        <a href="temperature-converter.html" class="converter-link">Temperature Converter</a>
+    </div>
+
+    <h2>Choose a Converter</h2>
+</body>
+</html>
